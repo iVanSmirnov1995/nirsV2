@@ -114,7 +114,7 @@ addLayersControls //add the PATCH names from inside the STL file so STLpatchName
     }
 
     expansionRatio 1.3;
-    finalLayerThickness 0.0016; //was 0.00016
+    finalLayerThickness 0.016; //was 0.00016
     minThickness 0.0008; //was 0.00008
     nGrow 0; // was 1 
 
