@@ -1,0 +1,7 @@
+#!/bin/bash
+cd constant
+rm -rf polyMesh
+cd ..
+blockMesh
+snappyHexMesh -overwrite
+paraFoam
