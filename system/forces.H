@@ -1,9 +1,9 @@
 
-ForceBowl
+ForceRoket
 {
 type forces;
 functionObjectLibs ("libforces.so"); //Lib to load
-patches (bowl); // change to your patch name
+patches (roket); // change to your patch name
 // Name of fields
 pName p;
 Uname U;
@@ -13,16 +13,16 @@ rho rhoInf;
 rhoInf 1.125; //Reference density for fluid
 CofR (0 0 0); //Origin for moment calculations
 outputControl timeStep;
-outputInterval 5;
+outputInterval 100;
 }
 
 
 
-CoeffsBowlCxmz
+CoeffsKobraCxmz
 {
 type forceCoeffs;
 functionObjectLibs ("libforces.so");
-patches (bowl); //change to your patch name
+patches (roket); //change to your patch name
 // Name of fields
 pName p;
 Uname U;
@@ -34,18 +34,18 @@ CofR (0 0 0);
 liftDir (0 1 0);
 dragDir (1 0 0);
 pitchAxis (0 0 1);
-magUInf 25;
-lRef 0.15;
-Aref 0.07065;
+magUInf 600;
+lRef 4.0;
+Aref 0.113354;
 outputControl timeStep;
-outputInterval 5;
+outputInterval 100;
 }
 
-CoeffsbowlCzCxmy
+CoeffsKobraCzCxmy
 {
 type forceCoeffs;
 functionObjectLibs ("libforces.so");
-patches (bowl); //change to your patch name
+patches (roket); //change to your patch name
 // Name of fields
 pName p;
 Uname U;
@@ -57,9 +57,9 @@ CofR (0 0 0);
 liftDir (0 0 1);
 dragDir (1 0 0);
 pitchAxis (0 1 0);
-magUInf 25;
-lRef 0.15;
-Aref 0.07065;
+magUInf 600;
+lRef 4.0;
+Aref 0.113354;
 outputControl timeStep;
-outputInterval 5;
+outputInterval 100;
 }
