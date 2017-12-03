@@ -24,7 +24,7 @@ boundaryField
     inlet
     {
         type            freestream;
-        freestreamValue           uniform (6590.884651807324836 104.188906600158209 0);
+        freestreamValue           $internalField;
     }
 
     outlet
