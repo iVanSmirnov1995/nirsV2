@@ -135,12 +135,12 @@ addLayersControls //add the PATCH names from inside the STL file so STLpatchName
 
     // Advanced settings
 
-    featureAngle 100; // was 70 //- When not to extrude surface. 0 is flat, 90 is right angle.
+    featureAngle 180; // was 70 //- When not to extrude surface. 0 is flat, 90 is right angle.
     nRelaxIter 3;  //- Max# of snapping relaxation iter. Should stop before upon reaching a correct mesh.
-    nSmoothSurfaceNormals 1;  // Number of smoothing iterations of surface normals
+    nSmoothSurfaceNormals 3;  // Number of smoothing iterations of surface normals
     nSmoothNormals 3; // Number of smoothing iterations of interior mesh movement direction
     nSmoothThickness 10;  // Smooth layer thickness over surface patches
-    maxFaceThicknessRatio 0.5; // Stop layer growth on highly warped cells
+    maxFaceThicknessRatio 1.5; // Stop layer growth on highly warped cells
     maxThicknessToMedialRatio 0.3; // Reduce layer growth where ratio thickness to medial distance is large
     minMedianAxisAngle 130;  // Angle used to pick up medial axis points
     nBufferCellsNoExtrude 0;   // Create buffer region for new layer terminations
