@@ -135,7 +135,7 @@ addLayersControls //add the PATCH names from inside the STL file so STLpatchName
 
     // Advanced settings
 
-    featureAngle 80; // was 70 //- When not to extrude surface. 0 is flat, 90 is right angle.
+    featureAngle 100; // was 70 //- When not to extrude surface. 0 is flat, 90 is right angle.
     nRelaxIter 3;  //- Max# of snapping relaxation iter. Should stop before upon reaching a correct mesh.
     nSmoothSurfaceNormals 1;  // Number of smoothing iterations of surface normals
     nSmoothNormals 3; // Number of smoothing iterations of interior mesh movement direction
