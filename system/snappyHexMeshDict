@@ -34,6 +34,15 @@ geometry // Load in STL files here
     radius 0.85;
     }
 
+    cylinder2
+    {
+        type searchableCylinder;
+        point1 (-0.2 0 0);
+        point2 (0.2 0 0);
+    radius 0.2;
+    }
+
+
 };
 
 castellatedMeshControls
@@ -59,7 +68,7 @@ castellatedMeshControls
     refinementSurfaces // Surface-wise min and max refinement level
     {
 	//nozzle {level (0 0);} // was 4 4
-	roket {level (4 4);}
+	roket {level (3 3);}
  // was 4 4
     }  
 
@@ -68,7 +77,12 @@ castellatedMeshControls
         cylinder
         {
             mode inside;
-            levels ((4 4));
+            levels ((3 3));
+        }
+        cylinder2
+        {
+            mode inside;
+            levels ((5 5));
         }
        /* roket
         {
