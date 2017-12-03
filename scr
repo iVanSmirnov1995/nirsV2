@@ -1,0 +1,6 @@
+#!/bin/bash
+./start
+cd..
+cd nir10
+cd nirsV2
+./start
