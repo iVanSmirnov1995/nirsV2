@@ -110,7 +110,7 @@ addLayersControls //add the PATCH names from inside the STL file so STLpatchName
     relativeSizes false; // was true
     layers
     {
-    roket {nSurfaceLayers 6;} // was 3
+    roket {nSurfaceLayers 4;} // was 3
     }
 
     expansionRatio 1.3;
