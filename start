@@ -6,7 +6,7 @@ rm -rf processor$i
 done
 decomposePar
 mpirun -np 16 rhoCentralFoam -parallel 
-reconstructPar -latestTime
+reconstructPar
 foamToVTK
 for (( i=0; i <= 15; i++ ))
 do
