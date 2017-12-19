@@ -20,7 +20,7 @@ method          simple;
 
 simpleCoeffs
 {
-    n               ( 4 2 2 ); // needs to multiply to = # cores
+    n               ( 4 4 2 ); // needs to multiply to = # cores
     delta           0.001;
 }
 
