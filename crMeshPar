@@ -1,14 +1,14 @@
 #!/bin/bash
 
 blockMesh
-for (( i=0; i <= 31; i++ ))
+for (( i=0; i <= 15; i++ ))
 do
 rm -rf processor$i
 done
 decomposePar
-mpirun -np 32 snappyHexMesh -overwrite -parallel
+mpirun -np 16 snappyHexMesh -overwrite -parallel
 reconstructParMesh -constant -mergeTol 1e-06
-for (( i=0; i <= 31; i++ ))
+for (( i=0; i <= 15; i++ ))
 do
 rm -rf processor$i
 done
