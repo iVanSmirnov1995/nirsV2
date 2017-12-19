@@ -14,13 +14,13 @@ FoamFile
     object      decomposeParDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //4
-numberOfSubdomains 32; // # of CPU cores
+numberOfSubdomains 16; // # of CPU cores
 
 method          simple;
 
 simpleCoeffs
 {
-    n               ( 4 4 2 ); // needs to multiply to = # cores
+    n               ( 4 2 2 ); // needs to multiply to = # cores
     delta           0.001;
 }
 
