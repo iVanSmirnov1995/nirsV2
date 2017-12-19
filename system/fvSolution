@@ -1,7 +1,7 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  3.0.x                                 |
+|  \\    /   O peration     | Version:  4.1                                   |
 |   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
@@ -22,21 +22,39 @@ solvers
         solver          diagonal;
     }
 
-    U
+   "(U|e)"
     {
         solver          smoothSolver;
         smoother        GaussSeidel;
         nSweeps         2;
-        tolerance       1e-10;
-        relTol          0;
+        tolerance       1e-09;
+        relTol          0.01;
     }
 
-    e
+    h
     {
         $U;
         tolerance       1e-10;
         relTol          0;
     }
+
+
+    "(k|epsilon).*"
+    {
+        solver          GAMG;
+        smoother        symGaussSeidel;
+        nSweeps         2;
+        tolerance       1e-02;
+        relTol          0.01;
+        $p;
+        tolerance       1e-10;
+        minIter           0;
+        maxIter           10000;
+
+
+    }
+
+
 }
 
 
