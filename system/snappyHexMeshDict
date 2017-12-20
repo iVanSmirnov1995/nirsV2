@@ -68,7 +68,7 @@ castellatedMeshControls
     refinementSurfaces // Surface-wise min and max refinement level
     {
 	//nozzle {level (0 0);} // was 4 4
-	roket {level (6 6);}
+	roket {level (5 5);}
  // was 4 4
     }  
 
@@ -77,7 +77,7 @@ castellatedMeshControls
         cylinder
         {
             mode inside;
-            levels ((6 6));
+            levels ((5 5));
         }
         // cylinder2
         // {
