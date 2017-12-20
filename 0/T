@@ -44,7 +44,7 @@ boundaryField
 
      back
     {
-        type            wedge;
+        type            symmetryPlane;
     }
 
 

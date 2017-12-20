@@ -40,12 +40,13 @@ boundaryField
 
     back
     {
-        type            wedge;
+        type            symmetryPlane;
     }
-
+    
     topAndBottom
     {
-        type            wedge;
+        type            freestream;
+        freestreamValue           $internalField;
     }
 
     roket
