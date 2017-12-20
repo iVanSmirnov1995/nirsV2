@@ -32,16 +32,20 @@ boundaryField
 	type            zeroGradient;
     }
 
-    frontAndBack
+    front
     {
         type            freestream;
         freestreamValue           $internalField;
     }
 
+    back
+    {
+        type            wedge;
+    }
+
     topAndBottom
     {
-        type            freestream;
-        freestreamValue           $internalField;
+        type            wedge;
     }
 
     roket

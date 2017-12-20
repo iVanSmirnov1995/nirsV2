@@ -36,10 +36,15 @@ boundaryField
     }
 
 
-    frontAndBack
+    front
     {
         type            freestream;
         freestreamValue           $internalField;
+    }
+
+     back
+    {
+        type            wedge;
     }
 
 
