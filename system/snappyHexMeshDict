@@ -33,13 +33,12 @@ geometry // Load in STL files here
         point2 (6.0 0 0);
     radius 0.85;
     }
-
-    cylinder2
+        cylinder2
     {
         type searchableCylinder;
-        point1 (0.0 0 0);
-        point2 (4.2 0 0);
-    radius 0.55;
+        point1 (4.15 0 0);
+        point2 (4.3 0 0);
+    radius 0.25;
     }
 
 
@@ -79,11 +78,11 @@ castellatedMeshControls
             mode inside;
             levels ((4 4));
         }
-        // cylinder2
-        // {
-        //     mode inside;
-        //     levels ((5 5));
-        // }
+        cylinder2
+        {
+            mode inside;
+            levels ((7 7));
+        }
         roket
         {
            mode distance;
