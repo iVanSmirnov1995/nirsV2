@@ -8,7 +8,3 @@ decomposePar
 mpirun -np 32 rhoCentralFoam -parallel 
 reconstructPar
 foamToVTK
-for (( i=0; i <= 31; i++ ))
-do
-rm -rf processor$i
-done
