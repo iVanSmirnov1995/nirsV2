@@ -83,11 +83,11 @@ castellatedMeshControls
             mode inside;
             levels ((5 5));
         }
-        roket
-        {
-           mode distance;
-           levels ((0.001 4) (0.003 3) (0.01 2)); 
-        }
+        // roket
+        // {
+        //    mode distance;
+        //    levels ((0.001 4) (0.003 3) (0.01 2)); 
+        // }
 
     }
 
