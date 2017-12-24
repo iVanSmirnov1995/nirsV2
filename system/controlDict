@@ -47,7 +47,7 @@ timeFormat      general;
 
 timePrecision   6;
 
-adjustTimeStep  off;
+adjustTimeStep  on;
 
 maxCo           0.5;
 
