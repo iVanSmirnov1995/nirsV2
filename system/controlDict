@@ -19,7 +19,7 @@ functions
     #include "forces.H"
 }
 
-application     rhoCentralFoam;
+application     sonicFoam;
 
 startFrom       latestTime;
 
