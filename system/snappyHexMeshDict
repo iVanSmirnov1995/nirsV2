@@ -31,7 +31,7 @@ geometry // Load in STL files here
         type searchableCylinder;
         point1 (-1.0 0 0);
         point2 (6.0 0 0);
-    radius 0.85;
+    radius 1.85;
     }
     cylinder2
     {
@@ -67,17 +67,17 @@ castellatedMeshControls
     refinementSurfaces // Surface-wise min and max refinement level
     {
 	//nozzle {level (0 0);} // was 4 4
-	roket {level (3 3);}
+	roket {level (4 4);}
  // was 4 4
     }  
 
     refinementRegions
     {
         cylinder
-        // {
-        //     mode inside;
-        //     levels ((3 3));
-        // }
+        {
+            mode inside;
+            levels ((3 3));
+        }
         // cylinder2
         // {
         //     mode inside;
