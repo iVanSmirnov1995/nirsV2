@@ -35,8 +35,8 @@ divSchemes
     div(phid,p)     leastSquares limitedLinear 1;
     div(phi,K)      leastSquares limitedLinear 1;
     div(phiv,p)     leastSquares limitedLinear 1;
-    div(phi,k)      bounded Gauss upwind; //tyrb
-    div(phi,epsilon) bounded Gauss upwind; 
+    div(phi,k)      bounded Gauss vanLeer; //tyrb
+    div(phi,epsilon) bounded Gauss vanLeer; 
     div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear; 
 }
 
