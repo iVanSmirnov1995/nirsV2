@@ -57,7 +57,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "roket.eMesh"; level 6;} 
+       // {file "roket.eMesh"; level 6;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
