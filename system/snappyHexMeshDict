@@ -74,10 +74,10 @@ castellatedMeshControls
     refinementRegions
     {
         cylinder
-        {
-            mode inside;
-            levels ((3 3));
-        }
+        // {
+        //     mode inside;
+        //     levels ((3 3));
+        // }
         // cylinder2
         // {
         //     mode inside;
