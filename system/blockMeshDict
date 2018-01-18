@@ -73,13 +73,20 @@ boundary
         );
     }
 
-        symmetry
+        symmetry1
     {
         type symmetryPlane;
         faces
         (
-          //  (4 5 6 7)
             (3 7 6 2)
+        );
+    }
+            symmetry2
+    {
+        type symmetryPlane;
+        faces
+        (
+           (4 5 6 7)
         );
     }
 
