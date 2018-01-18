@@ -35,8 +35,8 @@ liftDir (0 1 0);
 dragDir (1 0 0);
 pitchAxis (0 0 1);
 magUInf 600;
-lRef 4.0;
-Aref 0.113354;
+lRef 1.2;
+Aref 0.01020186;
 outputControl timeStep;
 outputInterval 100;
 }
