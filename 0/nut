@@ -40,12 +40,12 @@ boundaryField
         type            calculated;
         value           uniform 0;
     }
-    frontAndBack
+    front
     {
         type            calculated;
         value           uniform 0;
     }
-    topAndBottom
+    top
     {
         type            calculated;
         value           uniform 0;

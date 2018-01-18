@@ -31,13 +31,13 @@ boundaryField
 	type            zeroGradient;
     }
 
-    frontAndBack
+    front
     {
         type            freestream;
         freestreamValue           101325;
     }
 
-    topAndBottom
+    top
     {
         type            freestream;
         freestreamValue           101325;

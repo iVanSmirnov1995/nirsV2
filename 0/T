@@ -36,14 +36,14 @@ boundaryField
     }
 
 
-    frontAndBack
+    front
     {
         type            freestream;
         freestreamValue           $internalField;
     }
 
 
-    topAndBottom
+    top
     {
         type            freestream;
         freestreamValue           $internalField;

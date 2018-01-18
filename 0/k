@@ -43,14 +43,14 @@ boundaryField
         inletValue      $internalField;
         value           $internalField;
     }
-    frontAndBack
+    front
     {
         type            inletOutlet;
         inletValue      $internalField;
         value           $internalField;
     }
 
-    topAndBottom
+    top
     {
         type            fixedValue;
         value            $internalField;

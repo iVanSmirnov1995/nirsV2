@@ -39,12 +39,12 @@ boundaryField
     }
 
 
-    frontAndBack
+    front
     {
         type            calculated;
         value           uniform 0;
     }
-    topAndBottom
+    top
     {
          type            zeroGradient;
     }
