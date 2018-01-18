@@ -73,16 +73,16 @@ castellatedMeshControls
 
     refinementRegions
     {
-        cylinder
-        {
-            mode inside;
-            levels ((4 4));
-        }
-        cylinder2
-        {
-            mode inside;
-            levels ((6 6));
-        }
+        // cylinder
+        // {
+        //     mode inside;
+        //     levels ((4 4));
+        // }
+        // cylinder2
+        // {
+        //     mode inside;
+        //     levels ((6 6));
+        // }
         roket
         {
            mode distance;
