@@ -76,12 +76,12 @@ castellatedMeshControls
         cylinder
         {
             mode inside;
-            levels ((4 4));
+            levels ((3 3));
         }
         cylinder2
         {
             mode inside;
-            levels ((6 6));
+            levels ((5 5));
         }
         roket
         {
