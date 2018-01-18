@@ -49,6 +49,14 @@ boundaryField
         type            fixedValue;
         value           uniform (0 0 0);
     }
+    symmetry1 
+    { 
+        type            symmetryPlane; 
+    } 
+    symmetry2
+    { 
+        type            symmetryPlane; 
+    } 
 
    /* nozzle
     {

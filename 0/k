@@ -61,6 +61,14 @@ boundaryField
         type            kqRWallFunction;
         value           $internalField;
     }
+        symmetry1 
+    { 
+        type            symmetryPlane; 
+    } 
+    symmetry2
+    { 
+        type            symmetryPlane; 
+    } 
 
     /*nozzle
     {

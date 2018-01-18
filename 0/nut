@@ -56,6 +56,14 @@ boundaryField
         type            nutkWallFunction;
         value           uniform 0;
     }
+        symmetry1 
+    { 
+        type            symmetryPlane; 
+    } 
+    symmetry2
+    { 
+        type            symmetryPlane; 
+    } 
 
     /*nozzle
     {
