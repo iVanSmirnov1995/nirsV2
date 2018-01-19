@@ -37,8 +37,8 @@ geometry // Load in STL files here
     {
         type searchableCylinder;
         point1 (4.0 0 0);
-        point2 (5.0 0 0);
-    radius 0.3;
+        point2 (6.0 0 0);
+    radius 0.4;
     }
 
 
@@ -57,7 +57,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "roket.eMesh"; level 6;} 
+        {file "roket.eMesh"; level 5;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
@@ -83,11 +83,11 @@ castellatedMeshControls
             mode inside;
             levels ((8 8));
         }
-        roket
-        {
-           mode distance;
-           levels ((0.001 4) (0.003 3) (0.01 2)); 
-        }
+        // roket
+        // {
+        //    mode distance;
+        //    levels ((0.001 4) (0.003 3) (0.01 2)); 
+        // }
 
     }
 
