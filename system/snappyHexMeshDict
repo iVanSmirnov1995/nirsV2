@@ -78,11 +78,11 @@ castellatedMeshControls
             mode inside;
             levels ((3 3));
         }
-        // cylinder2
-        // {
-        //     mode inside;
-        //     levels ((5 5));
-        // }
+        cylinder2
+        {
+            mode inside;
+            levels ((5 5));
+        }
         // roket
         // {
         //    mode distance;
