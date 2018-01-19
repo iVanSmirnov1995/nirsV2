@@ -21,6 +21,12 @@ internalField   uniform (600 0 0);
 boundaryField
 {
 
+        symmetry 
+    { 
+        type            symmetryPlane; 
+    } 
+    
+
     inlet
     {
         type            freestream;

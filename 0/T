@@ -21,6 +21,10 @@ internalField   uniform 300;
 boundaryField
 {
 
+        symmetry 
+    { 
+        type            symmetryPlane; 
+    } 
 
     inlet
     {
