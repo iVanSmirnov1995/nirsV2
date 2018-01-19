@@ -36,7 +36,7 @@ geometry // Load in STL files here
     cylinder2
     {
         type searchableCylinder;
-        point1 (4.0 0 0);
+        point1 (3.95 0 0);
         point2 (6.0 0 0);
     radius 0.4;
     }
