@@ -57,7 +57,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "roket.eMesh"; level 4;} 
+        {file "roket.eMesh"; level 2;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
@@ -67,7 +67,7 @@ castellatedMeshControls
     refinementSurfaces // Surface-wise min and max refinement level
     {
 	//nozzle {level (0 0);} // was 4 4
-	roket {level (3 3);}
+	roket {level (2 2);}
  // was 4 4
     }  
 
@@ -76,12 +76,12 @@ castellatedMeshControls
         cylinder
         {
             mode inside;
-            levels ((3 3));
+            levels ((4 4));
         }
         cylinder2
         {
             mode inside;
-            levels ((6 6));
+            levels ((5 5));
         }
         // roket
         // {
