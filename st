@@ -1,2 +1,2 @@
-./crMech >> logMesh
+./crMechPar >> logMesh
 ./start >>log
