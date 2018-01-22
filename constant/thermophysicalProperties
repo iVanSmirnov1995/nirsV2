@@ -19,7 +19,7 @@ thermoType
 {
     type            hePsiThermo;
     mixture         pureMixture;
-    transport       sutherland;
+    transport       const;
     thermo          hConst;
     equationOfState perfectGas;
     specie          specie;
