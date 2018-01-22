@@ -49,7 +49,7 @@ interpolationSchemes
 {
     default         linear;
     reconstruct(rho) vanLeer;
-    reconstruct(U)  vanLeerV;
+    reconstruct(U)  vanLeer;
     reconstruct(T)  vanLeerV;
 }
 
