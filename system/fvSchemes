@@ -49,8 +49,8 @@ interpolationSchemes
 {
     default         linear;
     reconstruct(rho) vanLeer;
-    reconstruct(U)  vanLeer;
-    reconstruct(T)  vanLeerV;
+    reconstruct(U)  vanLeerV;
+    reconstruct(T)  vanLeer;
 }
 
 snGradSchemes
